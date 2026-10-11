@@ -61,8 +61,8 @@ pub use provided::{
 };
 pub use relay::{
     AccountTokens, AuditEvent, ConnectedClient, DEFAULT_RELAY_URL, DeviceListing, DeviceState,
-    DeviceView, Enrollment, Identity, Machine, MachinePatch, NoAccount, RelayClient, StaticToken,
-    relay_url_from_env,
+    DeviceView, Enrollment, Identity, Machine, MachinePatch, NoAccount, RelayClient, RelayUsage,
+    RelayUsageTeam, StaticToken, relay_url_from_env,
 };
 pub use service::{RunnerKind, ServiceManager, ServiceSpec, ServiceState};
 
